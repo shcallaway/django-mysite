@@ -1,5 +1,7 @@
 from django.shortcuts import get_object_or_404, render
-from django.url import reverse
+from django.http import HttpResponseRedirect, HttpResponse
+from django.urls import reverse
+
 # from django.http import HttpResponse
 # from django.template import loader
 # from django.http import Http404
